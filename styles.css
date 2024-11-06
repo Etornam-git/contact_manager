@@ -1,0 +1,161 @@
+/* Centering the form on the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #58ccef;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.master {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.master div {
+    margin: 50px;
+}
+/* Styling the form container */
+form {
+    background-color: #1d3c3b;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+}
+
+.main h2 {
+    color:rgb(10, 10, 213);
+    justify-content: center;
+    text-align: center;
+}
+/* Form title */
+form h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    color: #333333;
+    text-align: center;
+}
+
+/* Labels styling */
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555555;
+}
+
+/* Input fields styling */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 92%;
+    padding: 0.8rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+/* Input fields hover effect */
+form input[type="text"]:focus,
+form input[type="email"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Submit button styling */
+form input[type="submit"] {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Submit button hover effect */
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+button{
+    background-color: #58ccef;
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+    padding: 10px;
+    font-size: medium;
+   
+}
+button:hover {
+    background-color: aquamarine;
+}
+
+/* Table section */
+.min {
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; 
+
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px; 
+
+}
+
+table {  
+    width: 100%;  
+    border-collapse: collapse;  
+    font-family: Arial, sans-serif;  
+  }  
+  
+  caption {  
+    font-size: 24px;  
+    font-weight: bold;  
+    margin-bottom: 10px;  
+  }  
+  
+  thead {  
+    background-color: #f2f2f2;  
+  }  
+  
+  thead td {  
+    padding: 12px;  
+    font-weight: bold;  
+  }  
+  
+  tbody td {  
+    padding: 10px;  
+    border-bottom: 1px solid #ddd;  
+  }  
+  
+  tbody tr:nth-child(even) {  
+    background-color: #f2f2f2;  
+  }  
+  
+  tbody td:first-child {  
+    font-weight: bold;  
+  }  
+ 
